@@ -16,22 +16,17 @@ function createTable(jsonObject) {
 
 const getDegreeData = () => {
     const xhr = new XMLHttpRequest(); // Create XML request object
-    // Use XMLHttpRequest method open to initialize newly created request or reinitialize and existing request
-
     xhr.open('get', 'data/college.json', true); //params: method, location, asynchronous request
-    // onreadystatechange method is triggered every time the ready state changes on the page
-    xhr.onreadystatechange = function() {
+    xhr.onreadystatechange = function() { //this is triggered each time the state changes on the page i think
         if((xhr.readyState === 4) && xhr.status === 200){
-            const response = JSON.parse(xhr.responseText); //response from XMLHttpRequest
-            let newTable = createTable(response);
+            const response = JSON.parse(xhr.responseText); //store response from XMLHttpRequest
+            let newTable = createTable(response); //call create table function and fill with the json "response"
             let tableString = newTable.join('');
             btn.insertAdjacentHTML('beforebegin', `<table>${tableString}</table>`);
-            btn.style.display = 'none';
+            btn.style.display = 'none'; //hide the button
         }
     };
-    // Open initializes the request, and send actually sends it
-    // Automatic Trashcan analogy: open is equivalent to trashcan opening and send is actually throwing something in the trash
-    xhr.send();
+    xhr.send(); //send the request
 };
 
 btn.addEventListener('click', getDegreeData); //listen for users click of the button
