@@ -2,7 +2,7 @@ body {
   background-color: #032f26;
   padding: 20px; /*pad edges of content*/
   color: white; /*default font white*/
-  text-align: center;  /*center content*/
+  text-align: left;  /*center content*/
 }
 
 h1 {
