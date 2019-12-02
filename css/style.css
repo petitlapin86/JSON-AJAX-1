@@ -2,7 +2,6 @@ body {
   background-color: #032f26;
   padding: 20px; /*pad edges of content*/
   color: white; /*default font white*/
-  border-radius: 15px; /*round edges*/
   text-align: center;  /*center content*/
 }
 
@@ -40,3 +39,4 @@ td {
   border: 1px solid #ddd;
   padding: 8px;
 }
+tr:nth-child(even){background-color: #f2f2f2;}
