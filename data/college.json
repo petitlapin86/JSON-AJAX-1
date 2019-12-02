@@ -1,0 +1,35 @@
+{
+  "degrees": [
+    {
+    "School": "Rhode Island School of Design",
+    "Program": "CAD in Textiles",
+    "Type": "Summer Studies (pre-college)",
+    "Year": 2008
+  },
+  {
+    "School": "Massachusetts College of Art & Design",
+    "Program": "Fashion Design",
+    "Type": "Bachelor of Fine Art",
+    "Year": 2009
+  },
+  {
+    "School": "Edinburgh College Of Art",
+    "Program": "Costume Design for Broadway & Film",
+    "Type": "Master of Art",
+    "Year": 2010
+  },
+  {
+     "School": "Flatiron School",
+     "Program": "Full Stack Web Development",
+     "Type": "Bootcamp",
+     "Year": 2018
+   },
+   {
+      "School": "Boston University",
+      "Program": "Software Development",
+      "Type": "Master of Science",
+      "Year": 2020
+    }
+
+  ]
+}
