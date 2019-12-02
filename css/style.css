@@ -1,4 +1,4 @@
-section {
+body {
   background-color: #032f26;
   padding: 20px; /*pad edges of content*/
   width: 300px;
@@ -12,24 +12,24 @@ h1 {
   color: #d0bcb3; /*heading color*/
 }
 h2 {
-  color: pink;
+  color: #e7b5ac;
 }
 
 
 /*BUTTON STYLING*/
 button {
-	box-shadow:inset 0px 1px 0px 0px #1e6053;
-	background-color:#043f33;
+  box-shadow:inset 0px 1px 0px 0px #e7b5ac;
+	background-color: #f9e0db;
 	border-radius:5px;
 	cursor:pointer;
 	color:white;
-	font-size:15px;
+	font-size:16px;
   padding: 10px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #1e6053;
+	text-decoration: none;
+	text-shadow:0px 1px 0px  #e7b5ac;
   text-align: center;
 }
 
 table {
-  color: yellow;
+  color: #e7b5ac;
 }
