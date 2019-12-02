@@ -1,0 +1,35 @@
+section {
+  background-color: #032f26;
+  padding: 20px; /*pad edges of content*/
+  width: 300px;
+  height: 200px;
+  color: white; /*default font white*/
+  border-radius: 15px; /*round edges*/
+  text-align: center;  /*center content*/
+}
+
+h1 {
+  color: #d0bcb3; /*heading color*/
+}
+h2 {
+  color: pink;
+}
+
+
+/*BUTTON STYLING*/
+button {
+	box-shadow:inset 0px 1px 0px 0px #1e6053;
+	background-color:#043f33;
+	border-radius:5px;
+	cursor:pointer;
+	color:white;
+	font-size:15px;
+  padding: 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1e6053;
+  text-align: center;
+}
+
+table {
+  color: yellow;
+}
