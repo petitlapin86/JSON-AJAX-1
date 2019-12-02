@@ -1,18 +1,16 @@
 body {
   background-color: #032f26;
   padding: 20px; /*pad edges of content*/
-  width: 300px;
-  height: 200px;
   color: white; /*default font white*/
   border-radius: 15px; /*round edges*/
   text-align: center;  /*center content*/
 }
 
 h1 {
-  color: #d0bcb3; /*heading color*/
+  color: #e7b5ac; /*heading color*/
 }
 h2 {
-  color: #e7b5ac;
+  color: #d0bcb3;
 }
 
 
@@ -26,10 +24,13 @@ button {
 	font-size:16px;
   padding: 10px;
 	text-decoration: none;
-	text-shadow:0px 1px 0px  #e7b5ac;
+	text-shadow:0px 1px 5px  #e7b5ac;
   text-align: center;
 }
 
 table {
-  color: #e7b5ac;
+  color: white;
+  background-color: #e7b5ac;
+  width: 300px;
+  height: 300px;
 }
