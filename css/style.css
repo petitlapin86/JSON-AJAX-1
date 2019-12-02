@@ -9,7 +9,7 @@ h1 {
   color: #e7b5ac; /*heading color*/
 }
 h2 {
-  color: #d0bcb3;
+  color: white; /*sub heading color*/
 }
 
 
@@ -27,16 +27,22 @@ button {
   text-align: center;
 }
 
+/*TABLE STYLING*/
 table {
-  color: #e7b5ac;
-  background-color: white;
+  color: #e7b5ac; /*table font color*/
+  background-color: white; /*table background color*/
   width: 500px;
   height: 300px;
   text-align: center;
+  align-content: center;
+  align-self: center;
 }
 
 td {
-  border: 1px solid #ddd;
+  border: 1px solid #ddd; /*table border color*/
   padding: 8px;
 }
-tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:nth-child(even){
+  background-color: #f2f2f2; /*every other table row is a lighter gray - makes it easier to read*/
+}
