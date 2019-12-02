@@ -29,8 +29,14 @@ button {
 }
 
 table {
-  color: white;
-  background-color: #e7b5ac;
-  width: 300px;
+  color: #e7b5ac;
+  background-color: white;
+  width: 500px;
   height: 300px;
+  text-align: center;
+}
+
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
 }
